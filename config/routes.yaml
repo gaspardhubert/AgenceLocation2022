@@ -1,3 +1,13 @@
 controllers:
-    resource: ../src/Controller/
-    type: attribute
+  resource: ../src/Controller/
+  type: annotation
+
+app_home:
+  path: /
+  controller: App\Controller\HomeController::index
+
+ # app_cgv:
+    # path: /cgv
+    # controller: Symfony\Bundle\FrameworkerBundle\Controller\TemplateController
+    # defaults:
+      # template: 'statique/cgv.html.twig'

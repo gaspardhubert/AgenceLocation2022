@@ -1,0 +1,11 @@
+#framework:
+  #mailer:
+    #dsn: '%env(MAILER_DSN)%'
+    #transport: smtp
+   # host: smtp.free.framework
+    #username:
+   # password:
+    #auth_mode: login
+   # port: 587
+    #encryption: tels
+    #spool: { type: memory }

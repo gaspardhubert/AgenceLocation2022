@@ -1,0 +1,21 @@
+{% extends "layout.html.twig" %}
+
+{% block title %} {{ parent() }} - Ajout d'un véhicule {% endblock %}
+
+{% block content %}
+    {% if app.request.get('_route') == "admin_ajout_vehicule" %}
+    <h1>Ajout d'un véhicule</h1>
+    {% elseif app.request.get('_route') == "admin_update_vehicule" %}
+    <h1>Modification d'un véhicule</h1>
+    {% elseif app.request.get('_route') == "admin_delete_vehicule" %}
+    <h1>Suppression d'un véhicule</h1>
+  {% endif %}
+ 
+  {{ form(formVehicule) }}
+
+{% endblock %}
+
+  {% block final_js %}
+    <link rel="stylesheet" href="{{ asset('dropify/dist/css/demo.css') }}">
+            <link rel="stylesheet" href="{{ asset('dropify/dist/css/dropify.min.css') }}">
+  {% endblock %}

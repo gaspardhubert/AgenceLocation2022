@@ -1,0 +1,27 @@
+1) creer le projet symfony "AgenceLocation" (assurer-vous qu'il soit bien créé et fonctionnel)
+
+2) créer la bdd (agence_loc)
+
+3) - titre string (string, 255, not null)
+- marque (string, 100, not null)
+- model (string, 100, not null)
+- description (text, not null)
+- photo (string, 255, nullable)
+- prixJournalier (integer, not null)
+- dateEnregistrement (datetime, not null)
+
+4) créer tout le crud nécessaire pour le véhicule
+
+
+
+https://bootswatch.com/sketchy/
+
+style="text-décoration:none"
+
+a {
+  text-decoration: none;
+}
+
+style="text-decoration: none"
+
+https://egregorelivres.fr/?download_file=3622&order=wc_order_MGKnbFONgdIka&uid=2484c21a1e076a43e0233010e8161af35113f611bd0ce80dafb323bdcc8f8203&key=94b145f2-b17f-4f39-b5a2-c6d09b721c0c
